@@ -1,0 +1,144 @@
+/*导航*/
+.navbar .navbar-brand{
+	color:lightseagreen;
+	font-size:30px;
+	font-weight: bold;
+	line-height: 35px;
+}
+.navbar-nav>li>a{
+	font-weight: bold;
+	line-height: 35px;
+}
+/*首页*/
+#home{
+	width: 100%;
+	background: url(../images/home-bg.jpg) no-repeat;
+	background-size:cover;
+	text-align: center;
+	background-attachment: fixed;
+	/*背景图固定*/
+	/*视差滚动*/
+}
+.lvjing{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	padding:90px 0px;
+}
+#home h1,#home p{
+	color:#fff;
+}
+/*论坛*/	
+#bbs{
+	padding: 80px 0px ;
+	text-align: center;
+}
+#bbs a{
+	color: #000;
+	text-decoration: none;
+}
+#bbs .col-md-4{
+	padding: 10px;
+}
+#bbs .col-md-4:hover{
+	background: lightgray;
+	border-radius:10px ;
+	/*阴影*/
+	box-shadow:10px 10px 15px #ccc;
+}
+/*html5*/
+#html5{
+	background: lightgray;
+	padding: 80px 0px;
+	background: url(../images/home-bg.jpg) no-repeat;
+	background-attachment: fixed;
+}
+#bootstrap{
+	padding: 80px 0px;
+}
+#html5,#bootstrap p{
+	line-height: 30px;
+}
+#html5 p span{
+	color:lightseagreen;
+}
+#bootstrap p span{
+	color:lightseagreen;
+}
+/*课程*/
+#course{
+	padding: 80px 0px;
+	background: lightgray;
+	text-align: center;
+}
+#course h2{
+	padding-bottom:20px ;
+}
+#course .col-md-3{
+	margin:0px 0px 20px 0px;
+}
+#course .course{
+	background:#FFFF ;
+}
+#course a{
+	background: #fff;
+	border: 1px solid lightseagreen;
+	color: lightseagreen; 
+	font-size:12px ;
+	padding: 8px 30px;
+	margin: 20px 0px;
+}
+#course a:hover{
+	background: lightseagreen;
+	color: #fff;
+}
+/*app*/
+#app{
+	padding: 80px 0px;
+}
+#app h2{
+	padding: 20px 0px;
+}
+#app button{
+	border-radius: 0px;
+	margin:10px 5px;
+	padding:5px 30px ;
+	background: lightseagreen;
+	border: none;
+}
+/*联系我们*/
+#concat{
+	background: url(../images/contact-bg.png) no-repeat;
+	background-size:cover;
+	color: #fff;
+	background-attachment: fixed;
+}
+#concat h2{
+	margin-bottom: 20px;
+}
+#concat p{
+	line-height: 30px;
+}
+#concat span{
+	color: lightseagreen;
+}
+#concat .form-control{
+	border: none;
+	margin-bottom:20px;
+	border-radius: 0px;
+}
+#concat textarea{
+	height: 80px;
+	resize: none;
+	/*禁止拉伸*/
+}
+#concat input[type='submit']{
+	background: lightseagreen;
+	color: #fff;
+}
+footer{
+	background:#272822 ;
+	color: #FFF;
+	text-align: center;
+	padding: 20px;
+}
